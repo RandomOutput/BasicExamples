@@ -9,7 +9,4 @@
 extern Sifteo::AssetGroup IconAssets;
 extern const Sifteo::AssetImage Icon;
 extern Sifteo::AssetGroup GameAssets;
-extern const Sifteo::AssetImage Background;
-extern const Sifteo::PinnedAssetImage Star;
-extern const Sifteo::PinnedAssetImage Font;
-extern const Sifteo::AssetTracker Music;
+extern const Sifteo::AssetImage MyBG0Image;
