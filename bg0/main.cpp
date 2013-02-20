@@ -23,7 +23,7 @@ void main()
 
     for (unsigned i = 0; i < arraysize(vids); i++)
     {
-        vids[i].initMode(BG0); //set video buffer to more BG0
+        vids[i].initMode(BG0); //set video buffer to BG0 mode
         vids[i].attach(i); //attach video buffer to cube with ID `i`
 
         vids[i].bg0.image(vec(0,0), MyBG0Image); //Set the image `Background` defined in assets.lua to the VideoBuffer's BG0 layer
