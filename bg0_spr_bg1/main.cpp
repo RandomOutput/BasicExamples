@@ -17,8 +17,8 @@ static Metadata M = Metadata() //The metadata for the launcher
 
 void main()
 {
+    //SETUP VIDEO BUFFER
     static VideoBuffer vid; //create video buffer for each cube
-
     vid.initMode(BG0_SPR_BG1); //set video buffer to BG0_SPR_BG1 mode
     vid.attach(0); //attach video buffer to cube with ID 0
 
